@@ -142,7 +142,7 @@ guillaume@ubuntu:~/py/0x00$
     - You are not allowed to use string literals 
 
 
-````
+```
 guillaume@ubuntu:~/py/0x00$ ./8-concat_edges.py
 object-oriented programming with Python
 guillaume@ubuntu:~/py/0x00$ wc -l 8-concat_edges.py
