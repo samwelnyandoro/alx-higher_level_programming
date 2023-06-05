@@ -6,7 +6,6 @@
 - Write a Shell script that runs a Python script.
 - The Python file name will be saved in the environment variable `$PYFILE`
 
-####
 
 ```
 guillaume@ubuntu:~/py/0x00$ cat main.py 
@@ -23,8 +22,6 @@ guillaume@ubuntu:~/py/0x00$
 - Write a Shell script that runs Python code.
 - The Python code will be saved in the environment variable `$PYCODE`
 
-####
-
 ```
 guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
 guillaume@ubuntu:~/py/0x00$ ./1-run_inline 
@@ -35,8 +32,6 @@ guillaume@ubuntu:~/py/0x00$
 #### [2. Hello, print] (./2. Hello, print)
 -Write a Python script that prints exactly `"Programming is like building a multilingual puzzle,` followed by a new line.
 - Use the function `print`
-
-####
 
 ```
 guillaume@ubuntu:~/py/0x00$ ./2-print.py 
@@ -56,8 +51,6 @@ guillaume@ubuntu:~/py/0x00$
     - Your code must be 3 lines long
     - You have to use f-strings `tips`
 
-####
-
 ```
 guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
 98 Battery street
@@ -74,8 +67,6 @@ guillaume@ubuntu:~/py/0x00$
         followed by a new line
     - You are not allowed to cast `number` to string
     - You have to use f-strings
-
-####
 
 ```
 guillaume@ubuntu:~/py/0x00$ ./4-print_float.py
@@ -96,8 +87,6 @@ guillaume@ubuntu:~/py/0x00$
     - You are not allowed to use any loops or conditional statement
     - Your program should be maximum 5 lines long
 
-####
-
 ```
 guillaume@ubuntu:~/py/0x00$ ./5-print_string.py 
 Holberton SchoolHolberton SchoolHolberton School
@@ -113,7 +102,6 @@ guillaume@ubuntu:~/py/0x00$
     - You have to use the variables `str1` and `str2` in your new line of code
     - Your program should be exactly 5 lines long
 
-####
 
 ```
 guillaume@ubuntu:~/py/0x00$ ./6-concat.py
@@ -132,8 +120,6 @@ guillaume@ubuntu:~/py/0x00$
     - `word_first_3` should contain the first 3 letters of the variable `word`
     - `word_last_2` should contain the last 2 letters of the variable `word`
     - `middle_word` should contain the value of the variable `word` without the first and last letters
-
-####
 
 ```
 guillaume@ubuntu:~/py/0x00$ ./7-edges.py
@@ -155,7 +141,6 @@ guillaume@ubuntu:~/py/0x00$
     - You are not allowed to create new variables
     - You are not allowed to use string literals 
 
-####
 
 ````
 guillaume@ubuntu:~/py/0x00$ ./8-concat_edges.py
@@ -171,8 +156,6 @@ guillaume@ubuntu:~/py/0x00$
 
     - Your script should be maximum 98 characters long (please check with `wc -m 9-easter_egg.py`)
 
-<details>
-<summary>Test File</summary>
 
 ```
 guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
@@ -200,8 +183,6 @@ Namespaces are one honking great idea -- let's do more of those!
 guillaume@ubuntu:~/py/0x00$
 ```
 
-</details>
-
 #### [10- Linked list cycle] (./10-Linked list cycle)
 
 # Technical interview preparation:
@@ -218,8 +199,6 @@ guillaume@ubuntu:~/py/0x00$
 - Requirements:
 
     - Only these functions are allowed: `write`, `printf`, `putchar`, `puts`, `malloc`, `free`
-<details>
-<summary></summar>
 
 ```
 carrie@ubuntu:~/0x00$ cat lists.h
@@ -249,10 +228,6 @@ int check_cycle(listint_t *list);
 
 #endif /* LISTS_H */
 ```
-</details>
-
-<details>
-<summary></summary>
 
 ```
 carrie@ubuntu:~/0x00$ cat 10-linked_lists.c
@@ -320,10 +295,6 @@ void free_listint(listint_t *head)
     }
 }
 ```
-</details>
-
-<details>
-<summary></summary>
 
 ```
 carrie@ubuntu:~/0x00$ cat 10-main.c
@@ -381,10 +352,6 @@ int main(void)
     return (0);
 }
 ```
-</details>
-
-<details>
-<summary></summary>
 
 ```
 carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
@@ -400,12 +367,9 @@ carrie@ubuntu:~/0x00$$ ./cycle
 Linked list has no cycle
 Linked list has a cycle
 carrie@ubuntu:~/0x00$
-```
-</details>
 
 - Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
-####
-
+```
 
 #### [11-Hello, write] (./11-Hello, write)
 
@@ -415,8 +379,6 @@ carrie@ubuntu:~/0x00$
     - You are not allowed to use `print`
     - Your script should print to `stderr`
     - Your script should exit with the status code `1`
-
-####
 
 ```
 guillaume@ubuntu:~/py/0x00$ ./100-write.py
@@ -437,8 +399,6 @@ guillaume@ubuntu:~/py/0x00$
 
 - The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => output filename: `my_main.pyc`)
 
-
-####
 
 ```
 guillaume@ubuntu:~/py/0x00$ cat main.py 
@@ -468,7 +428,6 @@ guillaume@ubuntu:~/py/0x00$
 #### [13-ByteCode -> Python #1] (./13-ByteCode -> Python #1)
 - Write the Python function `def magic_calculation(a, b)`: that does exactly the same as the following Python bytecode:
 
-####
 
 ```
 3           0 LOAD_CONST               1 (98)
