@@ -2,7 +2,7 @@
 
 ## Tasks
 
-#### [0-Run Python file] (./0-Run Python file)
+#### [0-Run Python file](./0-Run Python file)
 - Write a Shell script that runs a Python script.
 - The Python file name will be saved in the environment variable `$PYFILE`
 
@@ -18,7 +18,7 @@ Best School
 guillaume@ubuntu:~/py/0x00$ 
 ```
 
-#### [1-Run inline] (./1-Run inline)
+#### [1-Run inline](./1-Run inline)
 - Write a Shell script that runs Python code.
 - The Python code will be saved in the environment variable `$PYCODE`
 
@@ -29,7 +29,7 @@ Best School: 98
 guillaume@ubuntu:~/py/0x00$
 ```
 
-#### [2. Hello, print] (./2. Hello, print)
+#### [2. Hello, print](./2. Hello, print)
 -Write a Python script that prints exactly `"Programming is like building a multilingual puzzle,` followed by a new line.
 - Use the function `print`
 
@@ -39,7 +39,7 @@ guillaume@ubuntu:~/py/0x00$ ./2-print.py
 guillaume@ubuntu:~/py/0x00$
 ```
 
-#### [3-Print integer] (./3-Print integer)
+#### [3-Print integer](./3-Print integer)
 
 - Complete this `source code` in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
 
@@ -57,7 +57,7 @@ guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
 guillaume@ubuntu:~/py/0x00$
 ```
 
-#### [4-Print float] (./4-Print float)
+#### [4-Print float](./4-Print float)
 
 - Complete the source code in order to print the float stored in the variable `number` with a precision of 2 digits.
 
@@ -74,7 +74,7 @@ Float: 3.14
 guillaume@ubuntu:~/py/0x00$ 
 ```
 
-#### [5-Print string] (./5-Print string)
+#### [5-Print string](./5-Print string)
 
 - Complete this `source code` in order to print 3 times a string stored in the variable `str`, followed by its first 9 characters.
 
@@ -94,7 +94,7 @@ Holberton
 guillaume@ubuntu:~/py/0x00$ 
 ```
 
-#### [6-Play with strings] (./6-Play with strings)
+#### [6-Play with strings](./6-Play with strings)
 - Complete this `source code` to print `Welcome to Holberton School!`
 
     - You can find the source code `here`
@@ -111,7 +111,7 @@ guillaume@ubuntu:~/py/0x00$ wc -l 6-concat.py
 guillaume@ubuntu:~/py/0x00$ 
 ```
 
-#### [7-Copy - Cut - Paste] (./7-Copy - Cut - Paste)
+#### [7-Copy - Cut - Paste](./7-Copy - Cut - Paste)
 - Complete this `source code`
 
     - You can find the source code `here`
@@ -131,7 +131,7 @@ guillaume@ubuntu:~/py/0x00$ wc -l 7-edges.py
 guillaume@ubuntu:~/py/0x00$ 
 ```
 
-#### [8-Create a new sentence] (./8-Create a new sentence)
+#### [8-Create a new sentence](./8-Create a new sentence)
 
 - Complete this `source code` to print `object-oriented programming with Python`, followed by a new line.
 
@@ -150,7 +150,8 @@ guillaume@ubuntu:~/py/0x00$ wc -l 8-concat_edges.py
 guillaume@ubuntu:~/py/0x00$
 ```
 
-#### [9-Easter Egg] (./9-Easter Egg)
+
+#### [9-Easter Egg](./9-Easter Egg)
 
 - Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 
@@ -183,9 +184,9 @@ Namespaces are one honking great idea -- let's do more of those!
 guillaume@ubuntu:~/py/0x00$
 ```
 
-#### [10- Linked list cycle] (./10-Linked list cycle)
+#### [10- Linked list cycle](./10-Linked list cycle)
 
-# Technical interview preparation:
+#### Technical interview preparation:
 
     - You are not allowed to google anything
     - Whiteboard first
@@ -371,7 +372,7 @@ carrie@ubuntu:~/0x00$
 - Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
 ```
 
-#### [11-Hello, write] (./11-Hello, write)
+#### [11-Hello, write](./11-Hello, write)
 
 - Write a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
 
@@ -391,7 +392,7 @@ and that piece of art is useful - Dora Korpar, 2015-10-19
 guillaume@ubuntu:~/py/0x00$ 
 ```
 
-#### [12-Compile] (./12-Compile)
+#### [12-Compile](./12-Compile)
 
 - Write a script that compiles a Python script file.
 
@@ -425,7 +426,7 @@ guillaume@ubuntu:~/py/0x00$ od -t x1 main.pyc # SYSTEM DEPENDANT => CAN BE DIFFE
 guillaume@ubuntu:~/py/0x00$ 
 ```
 
-#### [13-ByteCode -> Python #1] (./13-ByteCode -> Python #1)
+#### [13-ByteCode -> Python #1](./13-ByteCode -> Python #1)
 - Write the Python function `def magic_calculation(a, b)`: that does exactly the same as the following Python bytecode:
 
 
