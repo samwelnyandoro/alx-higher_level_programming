@@ -1,18 +1,20 @@
 #!/usr/bin/python3
-"""0x0B. Python - Input/Output, task 7 Load, add, save  """
-
-
+"""Module for saving to json"""
+import json
+import os.path
+import sys
 from sys import argv
+
 save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
-argv_edit = argv[1:]
+filename = "add_item.json"
+json_list = []
 
-try:
-    content_list = load_from_json_file("add_item.json")
-except:
-    content_list = []
-finally:
-    for arg in argv_edit:
-        content_list.append(arg)
-    save_to_json_file(content_list, "add_item.json")
+if os.path.exists(filename):
+    json_list = load_from_json_file(filename)
+
+for index in argv[1:]:
+    json_list.append(index)
+
+save_to_json_file(json_list, filename)
