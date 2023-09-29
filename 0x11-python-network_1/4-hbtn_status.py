@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-"""fetches https://intranet.hbtn.io/status."""
-import requests
-
+"""Fetch URL using requests package"""
 
 if __name__ == "__main__":
-    r = requests.get("https://intranet.hbtn.io/status")
-    print("Body response:")
-    print("\t- type: {}".format(type(r.text)))
-    print("\t- content: {}".format(r.text))
+    from requests import get
+
+    try:
+        r = get('https://intranet.hbtn.io/status')
+        print('Body response:')
+        print('\t- type: {}'.format(type(r.text)))
+        print('\t- content: {}'.format(r.text))
+    except Exception as e:
+        print(e)
